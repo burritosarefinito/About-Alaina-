@@ -1,0 +1,46 @@
+html {
+  background: url("http://www.imagefully.com/wp-content/uploads/2015/09/Dance-Music-Amazing-Background-Wallpaper1.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  background: cover;
+}
+
+div{
+  color: purple;
+}
+
+a{
+  color: blue;
+}
+
+#intro{
+  color: red;
+}
+
+ul {
+      text-align: left;
+      list-style-position: center;
+}
+
+.list {
+  text-align: left;
+}
+
+.list > ul {
+  display: inline-block;
+}
+.wrap {
+    width: 100%;
+}
+/* Container holding the image and the text */
+ul{
+    position: center;
+    max-width: 500px;
+    margin: 0 auto;
+    position: center;
+    bottom: 0;
+    right: 10px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
